@@ -1,0 +1,55 @@
+body {
+    background-color: azure;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGridBtn {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    background-color: azure;
+    height: 30px;
+    width: 75px;
+    border-radius: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#resetBtn {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: azure;
+    height: 30px;
+    width: 75px;
+    border-radius: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#container {
+    height: 720px;
+    width: 720px; 
+    margin: auto;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    /* height: 43px;
+    width: 43px; */
+    border: 1px solid black;
+}
+
+/* column height = 720 / size - 2 */
+/* column height = 720 / size - 2 */
