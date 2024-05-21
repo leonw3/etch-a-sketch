@@ -60,12 +60,12 @@ function changeGridSize() {
     const newGridButton = document.querySelector("#newGridBtn");
     newGridButton.addEventListener("click", () => {
         const newSize = Number(prompt("How many grids?"));
-        if (newSize && newSize > 0) {
+        if (newSize > 0 && newSize <= 100) {
             size = newSize; // Update the global size
             removeGrid();
             createGrid(size);
         } else {
-            alert("Please enter a valid number greater than 0.");
+            alert("Please enter a valid number greater than 0 and less than 101.");
         }
     });
 }
