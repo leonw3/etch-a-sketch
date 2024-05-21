@@ -65,7 +65,7 @@ function changeGridSize() {
             removeGrid();
             createGrid(size);
         } else {
-            alert("Please enter a valid number greater than 0 and less than 101.");
+            alert("Please enter a valid number from 0 to 100.");
         }
     });
 }
